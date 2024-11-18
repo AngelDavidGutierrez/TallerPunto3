@@ -25,7 +25,7 @@ public class TallerPunto3 {
             
             switch (opcion) {
                 case 1:
-                    //ingresarPuntoDeVenta(); 
+                    System.out.println(""); 
                     break;
                 case 2:
                     System.out.println("");
