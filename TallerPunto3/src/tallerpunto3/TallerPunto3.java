@@ -11,6 +11,7 @@ public class TallerPunto3 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        ArrayList<PuntoDeVenta> puntosDeVenta = new ArrayList<>();
         
         while (true) {
             System.out.println("\nMenu:");
@@ -25,7 +26,7 @@ public class TallerPunto3 {
             
             switch (opcion) {
                 case 1:
-                    System.out.println(""); 
+                    //ingresarPuntoDeVenta(); 
                     break;
                 case 2:
                     System.out.println("");
