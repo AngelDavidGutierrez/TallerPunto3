@@ -1,8 +1,8 @@
 package tallerpunto3;
 
-import backend.PuntoDeFabrica;
+import backend.PuntoFabrica;
 import backend.TiendaCentroComercial;
-import backend.EspacioEnAlmacen;
+import backend.EspacioAlmacen;
 import backend.PuntoDeVenta;
 import java.util.ArrayList;
 import java.util.Scanner;

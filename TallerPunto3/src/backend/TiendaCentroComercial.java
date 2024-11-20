@@ -1,6 +1,6 @@
 package backend;
 
-public class TiendaCentroComercial extends PuntoVenta {
+public class TiendaCentroComercial extends PuntoDeVenta {
     private String administrador;
     private int numeroEmpleados;
     private String lineaRopaMasVendida;

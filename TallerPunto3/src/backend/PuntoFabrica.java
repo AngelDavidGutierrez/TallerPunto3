@@ -1,6 +1,6 @@
 package backend;
 
-public class PuntoFabrica extends PuntoVenta {
+public class PuntoFabrica extends PuntoDeVenta {
     private String administrador;
     private int numeroEmpleados;
     
