@@ -1,13 +1,13 @@
 package backend;
 
-public abstract class PuntoDeVenta {
+public abstract class PuntoVenta {
     private String codigo;
     private String direccion;
     private String telefono;
     private double area;
     protected double presupuestoVentas;
     
-    public PuntoDeVenta(String codigo, String direccion, String telefono, double area) {
+    public PuntoVenta(String codigo, String direccion, String telefono, double area) {
         this.codigo = codigo;
         this.direccion = direccion;
         this.telefono = telefono;
@@ -28,3 +28,4 @@ public abstract class PuntoDeVenta {
         System.out.println("Presupuesto de ventas: $" + presupuestoVentas);
     }
 }
+
