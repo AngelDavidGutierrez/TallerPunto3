@@ -4,13 +4,19 @@ import backend.PuntoFabrica;
 import backend.TiendaCentroComercial;
 import backend.EspacioAlmacen;
 import backend.PuntoDeVenta;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class TallerPunto3 {
 
+    private static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        
+        registro_punto_de_venta();
+
+    }
+
+    public static void registro_punto_de_venta() {
+        
         
         while (true) {
             System.out.println("\nMenu:");
