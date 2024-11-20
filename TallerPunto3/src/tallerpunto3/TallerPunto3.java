@@ -11,6 +11,7 @@ public class TallerPunto3 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        ArrayList<PuntoVenta> puntosDeVenta = new ArrayList<>();
         
         while (true) {
             System.out.println("\nMenu:");
